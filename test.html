@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+			<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+			<title>k12stars</title>
+			<!-- Custom CSS -->
+			<link rel="stylesheet" type="text/css" href="http://localhost:8090/dev/static/css/style_parent.css" />
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+	        <!-- jQuery UI -->
+	        <link type="text/css" href="http://localhost:8090/dev/static/css/themes/start-custom/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+	        <link type="text/css" href="http://localhost:8090/dev/static/css/themes/green-orange-ui/jquery.ui.all.css" rel="stylesheet" />
+	        <link type="text/css" href="http://localhost:8090/dev/static/css/themes/orange-green-ui/jquery.ui.all.css" rel="stylesheet" />
+	        <link type="text/css" href="http://localhost:8090/dev/static/css/themes/red-orange-ui/jquery.ui.all.css" rel="stylesheet" />
+	        <link type="text/css" href="http://localhost:8090/dev/static/css/themes/orange-red-ui/jquery.ui.all.css" rel="stylesheet" />
+	        <link type="text/css" href="http://localhost:8090/dev/static/css/themes/red-green-ui/jquery.ui.all.css" rel="stylesheet" />
+
+	        <script type="text/javascript" src="http://localhost:8090/dev/static/js/jquery-ui-1.8.14.custom.min.js"></script>
+	        <!-- Split Butt -->
+	        <script type="text/javascript" src="http://localhost:8090/dev/static/js/jquery.1.8.14.splitButton.js"></script>
+
+	        <!-- Validation -->
+			<script type="text/javascript" src="http://localhost:8090/dev/static/js/validation/jquery.validate.js"></script>
+        	<script type="text/javascript" src="http://localhost:8090/dev/static/js/validation/additional-validation-rules.js"></script>
+
+	        <!-- Humanized Messages -->
+			<script type="text/javascript" src="http://localhost:8090/dev/static/js/humanized/humanmsg.js"></script>
+			<link type="text/css" media="screen" rel="stylesheet" href="http://localhost:8090/dev/static/js/humanized/humanmsg.css" />
+
+			<!-- JQuery Form plugin -->
+			<script type="text/javascript" src="http://localhost:8090/dev/static/js/form/jquery.form.js"></script>
+
+       		<!-- Config Ext-->
+        	<script type="text/javascript" src="http://localhost:8090/dev/static/js/config.js"></script>
+
+	<body>
+
+	  <div id="wrapper">
+	    <div id="container" style="width:1015px;">
+	      <div class="container_middle"  style="width:1015px;">
+	        <div id="container_content">
+				  <div>
+					<div>
+						<a href="#" class="split-button">Edit</a>
+						<a href="#" >Menu</a>
+					</div>
+					<ul style="display:none;">
+						<li><a class="red-orange-ui deleteStudent" href="#">Delete 1</a></li>
+					</ul>
+				 </div>
+			  </div>
+			</div>
+		</div>
+	  </div>
+
+
+
+<script type="text/javascript">
+
+	function setupDeleteStudent() {
+		$(".split-button").splitButton();
+		$('.deleteStudent').live('click', function() {
+				alert("Hello! I am an alert box!");
+				return false;
+		});
+	}
+
+	$(document).ready(function(){
+		setupDeleteStudent();
+	});
+</script>
+
+	</body>
+</html>

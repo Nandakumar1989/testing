@@ -1,0 +1,15 @@
+set password for root@localhost=password('admin');
+
+dev/index.php
+dev/client/config/config.php - base url
+							- line 100, change true to false
+						
+dev/client/config/database.php - line 69 change database name
+
+.htaccess - change /latest to /dev
+dev/static/js/config_admin.js - change site_url
+dev/static/js/config.js - change site_url
+
+Administrator area [ username: nandu.amrita@gmail.com, password: Jmm9AJL
+
+Auth code is baZL8tb4az7SbqnEfyO3TfZeuQCrom66.
