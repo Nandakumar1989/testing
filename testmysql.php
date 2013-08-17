@@ -1,4 +1,4 @@
-Karuppaih
+Karuppaih 2nd time
 <?php 
 $link = mysql_connect('hostname','dbuser','dbpassword'); 
 if (!$link) { 
