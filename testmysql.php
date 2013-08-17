@@ -1,4 +1,4 @@
-nandakumar - their file is to be used - hmmm:(
+nandakumar
 <?php 
 $link = mysql_connect('hostname','dbuser','dbpassword'); 
 if (!$link) { 
