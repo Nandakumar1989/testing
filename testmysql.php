@@ -1,4 +1,4 @@
-Karuppaih
+nandakumar - their file is to be used
 <?php 
 $link = mysql_connect('hostname','dbuser','dbpassword'); 
 if (!$link) { 
