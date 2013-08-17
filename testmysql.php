@@ -1,3 +1,4 @@
+Karuppaih
 <?php 
 $link = mysql_connect('hostname','dbuser','dbpassword'); 
 if (!$link) { 
