@@ -1,4 +1,4 @@
-nandakumar123
+file
 <?php 
 $link = mysql_connect('hostname','dbuser','dbpassword'); 
 if (!$link) { 
